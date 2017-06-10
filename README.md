@@ -11,8 +11,6 @@ def __main__(argv)
   describe file('mrblib') do
     it { should be_readable.by('yourgroup').by_user('you') }
   end
-
-  report
 end
 ```
 
@@ -35,3 +33,8 @@ Total: 1
 Crash: 0
  Time: 0.16 seconds<Paste>
 ```
+
+## Acknowledgement
+
+This project is inspired by [mitamae](https://github.com/itamae-kitchen/mitamae).
+
