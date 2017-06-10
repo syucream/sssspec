@@ -1,11 +1,8 @@
-# NOTE Write your specs in __main__()
 def __main__(argv)
+  # NOTE Write your specs here
 
   # For example:
   # describe file('mrblib') do
   #   it { should be_readable.by('yourgroup').by_user('you') }
   # end
-
-  # finally report rspec result.
-  report
 end

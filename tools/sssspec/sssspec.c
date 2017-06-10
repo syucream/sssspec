@@ -27,6 +27,10 @@ int main(int argc, char *argv[])
     mrb_print_error(mrb);
     return_value = EXIT_FAILURE;
   }
+
+  // report serverspec result
+  mrb_funcall(mrb, mrb_top_self(mrb), "report", 0);
+
   mrb_close(mrb);
 
   return return_value;
